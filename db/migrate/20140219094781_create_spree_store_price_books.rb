@@ -1,4 +1,4 @@
-class CreateSpreeStorePriceBooks < ActiveRecord::Migration
+class CreateSpreeStorePriceBooks < ActiveRecord::Migration[4.2]
   def change
     create_table :spree_store_price_books do |t|
       t.belongs_to :price_book, index: true

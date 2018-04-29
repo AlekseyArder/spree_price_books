@@ -1,4 +1,4 @@
-class CreateSpreePriceBooks < ActiveRecord::Migration
+class CreateSpreePriceBooks < ActiveRecord::Migration[4.2]
   def change
     create_table :spree_price_books do |t|
       t.datetime :active_from
