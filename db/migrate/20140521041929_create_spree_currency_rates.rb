@@ -1,4 +1,4 @@
-class CreateSpreeCurrencyRates < ActiveRecord::Migration[4.2]
+class CreateSpreeCurrencyRates < SpreeExtension::Migration[4.2]
   def change
     create_table :spree_currency_rates do |t|
       t.string :base_currency
